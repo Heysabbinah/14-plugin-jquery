@@ -12,7 +12,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    /*font-size: 1em;*/
     line-height: 1.4;
 }
 
@@ -92,8 +92,53 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Huguette's custom styles
    ========================================================================== */
+/*.container {
+    margin-left: auto;
+    margin-right: auto;
+}*/
+.container navigation {
+    margin: 0;
+}
+nav {
+    margin: 0;
+    background-color: black;
+    height: 20%;
+}
+.logo {
+    margin-bottom: 1%;
+}
+.menu li {
+    display: inline-block;
+    font-size: 1.1em;
+    color: white;
+    margin: 20px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+li a :hover {
+    width: 20px;
+    height:20px;
+    background-color: white;
+}
+h5 {
+    color: #fb6046;
+    font-weight: bold;
+}
+.visite {
+    color: #fb6046;
+}
+
+#home {
+    height: 40px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    display: block;
+    background-image: url("../img/btn_home.jpg")!important;
+}
 
 
 
@@ -221,7 +266,7 @@ textarea {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
