@@ -3,11 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+   /*sabrina / www.coloredcloud.fr*/
 
 # TECHNOLOGY COLOPHON
 
